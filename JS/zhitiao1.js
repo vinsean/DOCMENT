@@ -17,6 +17,37 @@ s2 = new Date();
 var days = s1.getTime() - s2.getTime();
 var experienceDays = parseInt(days / (1000 * 60 * 60 * 24));
 */
-console.log(obj.data)
-obj.data.member = {"status":"1", "endTime":"1694188800000", "userId":"65795493", "type":"1", "experienceDays":"123"};
+
+obj.data = {
+    "hasHonor" : 0,
+    "isFocus" : -1,
+    "picUrl" : "http://zt-cdn.zuowenzhitiao.com/user/avatar.jpg/zwzt_Avatar_Compress",
+    "borders" : [
+
+    ],
+    "constellation" : "",
+    "iskol" : 0,
+    "signinNum" : 1,
+    "member" : {
+      "status" : 1,
+      "endTime" : 1694188800000,
+      "userId" : "65795493",
+      "type" : 0
+    },
+    "signature" : "",
+    "showName" : "小纸条reYeLE",
+    "repairToolNum" : "6.0",
+    "ipLocate" : "未知",
+    "homePic" : "http://zt-cdn.zuowenzhitiao.com//home-pic/default.png",
+    "gender" : 0,
+    "department" : "",
+    "grade" : "",
+    "focusCount" : 0,
+    "editNum" : 0,
+    "overage" : "0.00",
+    "checkStatus" : false,
+    "praise" : 0,
+    "followerCount" : 0,
+    "userId" : "65795493"
+  }
 $done({body: JSON.stringify(obj)});
