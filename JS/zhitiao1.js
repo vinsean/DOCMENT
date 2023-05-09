@@ -10,14 +10,6 @@ Surge & QX Mitm = app1.zuowenzhitiao.com
 
 let obj = JSON.parse($response.body);
 
-/*
-var s1 = '2023-09-09';
-s1 = new Date(s1.replace(/-/g, "/"));
-s2 = new Date();
-var days = s1.getTime() - s2.getTime();
-var experienceDays = parseInt(days / (1000 * 60 * 60 * 24));
-*/
-
 obj.data = {
     "hasHonor" : 0,
     "isFocus" : -1,
