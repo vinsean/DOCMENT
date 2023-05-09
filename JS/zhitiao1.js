@@ -18,5 +18,5 @@ var days = s1.getTime() - s2.getTime();
 var experienceDays = parseInt(days / (1000 * 60 * 60 * 24));
 */
 
-obj.data.member = {"status":"1", "endTime":"1694188800000", "userId":"65795493", "type":"1", "experienceDays""123"};
+obj.data.member = {"status":"1", "endTime":"1694188800000", "userId":"65795493", "type":"1", "experienceDays":"123"};
 $done({body: JSON.stringify(obj)});
