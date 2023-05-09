@@ -41,5 +41,5 @@ obj.data = {
     "praise" : 0,
     "followerCount" : 0,
     "userId" : "65795493"
-  }
+  };
 $done({body: JSON.stringify(obj)});
