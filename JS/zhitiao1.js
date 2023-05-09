@@ -9,7 +9,8 @@ Surge & QX Mitm = app1.zuowenzhitiao.com
 */
 
 let obj = JSON.parse($response.body);
-obj.data.member = {"status":1, "endTime" = 1694188800000, "userId" : "65795493", "type" : 0};
+//obj.data.member = {"status":1, "endTime" = 1694188800000, "userId" : "65795493", "type" : 0};
+console.log(obj.data)
 
 /*
 obj.data = {
