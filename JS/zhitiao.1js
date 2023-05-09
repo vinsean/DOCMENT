@@ -1,1 +1,20 @@
+/*
+zhitiao app unlocks pro
 
+QX
+^https:\/\/app1\.zuowenzhitiao\.com\/user\/common\/getPersonInfo url script-response-body https://raw.githubusercontent.com/vinsean/DOCMENT/edit/master/JS/zhitiao.1js
+^https:\/\/app1\.zuowenzhitiao\.com\/user\/extradata?pushSystemPermission=0 url script-response-body https://raw.githubusercontent.com/vinsean/DOCMENT/edit/master/JS/zhitiao.1js
+^https:\/\/api\.(picsart|meiease)\.c(n|om)\/users\/show\/me\.json url script-response-body https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/PicsArt.js
+Surge & QX Mitm = api.picsart.c*, api.meiease.c*
+*/
+
+let obj = JSON.parse($response.body);
+
+var s1 = '2023-09-09';
+s1 = new Date(s1.replace(/-/g, "/"));
+s2 = new Date();//当前日期
+var days = s1.getTime() - s2.getTime();
+var experienceDays = parseInt(days / (1000 * 60 * 60 * 24));
+
+obj.data.member = {"status":"1", "endTime":"1694188800000", "userId":"65795493", "type":"1", "experienceDays"experienceDays};
+$done({body: JSON.stringify(obj)});
