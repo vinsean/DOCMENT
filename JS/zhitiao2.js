@@ -2,7 +2,7 @@
 zhitiao app unlocks pro
 
 QX
-^https:\/\/app1\.zuowenzhitiao\.com\/user\/member\/details url script-response-body https://raw.githubusercontent.com/vinsean/DOCMENT/edit/master/JS/zhitiao.2js
+^https:\/\/app1\.zuowenzhitiao\.com\/user\/member\/details url script-response-body https://raw.githubusercontent.com/vinsean/DOCMENT/edit/master/JS/zhitiao2.js
 
 Surge & QX Mitm = app1.zuowenzhitiao.com
 */
